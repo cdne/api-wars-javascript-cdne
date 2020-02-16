@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Api Wars{% endblock %}
+
+{% block body %}
+    {{ name }}
+    <h1>Stars Wars universe planets</h1>
+    <div class="container-fluid">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Diameter</th>
+                    <th scope="col">Climate</th>
+                    <th scope="col">Terrain</th>
+                    <th scope="col">Surface Water Percentage</th>
+                    <th scope="col">Population</th>
+                    <th scope="col">Residents</th>
+                    <th scope="col">Vote</th>
+                </tr>
+            </thead>
+            <tbody id = 'tbody'>
+
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
